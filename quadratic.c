@@ -13,7 +13,7 @@ int main() {
   scanf("%f", &b);
   printf("c: ");
   scanf("%f", &c);
-
+  // formula x= (-b +- root(b^2-4*a*c))/2*a
   // Calculate the discriminant
   float discriminant = b * b - 4 * a * c;
 
