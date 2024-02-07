@@ -2,7 +2,7 @@
 // a) Minimum Rs.80/- for up to 20 units
 // b) Rs. 7.30 per unit for next 100 units
 // c) Rs 9.00 per unit for any units beyond 120 units
-// Write a program to compute monthly bill for given number of nsumed by a
+// Write a program to compute monthly bill for given number of consumed by a
 // customer
 #include <stdio.h>
 int main() {
