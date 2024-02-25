@@ -6,12 +6,10 @@ int main(void) {
     scanf("%d", &num[i]);
   }
   smallest = num[0];
+  largest = num[0];
   for (i = 0; i <= 9; i++) {
     if (smallest > num[i])
       smallest = num[i];
-  }
-  largest = num[0];
-  for (i = 0; i <= 9; i++) {
     if (largest < num[i])
       largest = num[i];
   }
