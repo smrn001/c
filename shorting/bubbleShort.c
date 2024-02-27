@@ -1,3 +1,4 @@
+// bubble short for n number of elements
 #include <stdio.h>
 int main() {
   int n, temp;
