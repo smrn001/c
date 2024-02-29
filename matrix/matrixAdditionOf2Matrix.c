@@ -1,7 +1,7 @@
 // matrix addition of 2 matrix
 #include <stdio.h>
 int main() {
-  int r1, r2, c1, c2, i, j, k;
+  int r1, r2, c1, c2, j, k;
   printf("Enter row of 1st matrix : ");
   scanf("%d", &r1);
   printf("Enter colum of 1st matrix : ");
@@ -24,7 +24,7 @@ int main() {
         scanf("%d", &mat2[j][k]);
       }
     }
-    for (int j = 0; j < r1; j++) {
+    for (j = 0; j < r1; j++) {
       for (k = 0; k < c1; k++)
         mats[j][k] = mat1[j][k] + mat2[j][k];
     }
