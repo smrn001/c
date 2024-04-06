@@ -12,7 +12,7 @@ int main() {
   FILE *da;
   da = fopen("student.txt", "a");
   printf("Name:%s  RollNo:%d \t  Marks:%.2f", name, rollNo, marks);
-  fprintf(da, "\n Name:%s  RollNo:%d \t  Marks:%.2f", name, rollNo, marks);
+  fprintf(da, "\n Name:%s  RollNo:%d \t  Marks:%.2f\n", name, rollNo, marks);
   fclose(da);
   return 0;
 }
