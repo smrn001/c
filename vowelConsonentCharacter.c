@@ -15,7 +15,7 @@ int main(){
         else if(ch>='0'&&ch<='9')
             printf("You entered number ");
         else
-            printf("You entered other character ");
+            printf("You entered other characters ");
     }
     return 0;
 }
