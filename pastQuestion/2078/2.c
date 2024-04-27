@@ -1,5 +1,4 @@
 // program to check if two matrices are equal or not
-
 #include <stdio.h>
 int main()
 {
